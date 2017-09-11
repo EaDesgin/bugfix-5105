@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!--fix for bug magento https://github.com/magento/magento2/issues/5105-->
+    <preference for="Magento\GroupedProduct\Block\Order\Email\Items\Order\Grouped"
+                type="Eadesigndev\Bugfix5105\Block\Sales\Order\Email\Items\Order\Grouped" />
+</config>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <bugfix5105>
+            <general>
+                <enable_frontend>1</enable_frontend>
+            </general>
+        </bugfix5105>
+    </default>
+</config>

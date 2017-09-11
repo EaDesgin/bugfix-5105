@@ -1,0 +1,45 @@
+{
+  "name": "eadesignro/module-bugfix5105",
+  "description": "Fix for the email type casting bug on email sending",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Eadesigndev\\Bugfix5105\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "license": [
+    "AL-2.0"
+  ],
+  "authors": [
+    {
+      "name": "EaDesign",
+      "email": "office@eadesign.ro",
+      "homepage": "https://www.eadesign.ro/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+    "magento/module-email": "100.1.*",
+    "magento/framework": "100.1.*",
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "phpmd/phpmd": "^2.3",
+    "squizlabs/php_codesniffer": "^2.5",
+    "sebastian/phpcpd": "^2.0",
+    "satooshi/php-coveralls": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
