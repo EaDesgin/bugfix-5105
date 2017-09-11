@@ -1,6 +1,6 @@
 {
   "name": "eadesignro/module-bugfix5105",
-  "description": "Fix for the email type casting bug on email sending",
+  "description": "Fix for the email type casting bug",
   "type": "magento2-module",
   "version": "1.0.1",
   "autoload": {
@@ -31,7 +31,7 @@
   "require": {
     "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
     "magento/module-email": "100.1.*",
-    "magento/framework": "100.1.*",
+    "magento/framework": "100.1.*"
   },
   "require-dev": {
     "phpunit/phpunit": "^4.8",
